@@ -24,6 +24,15 @@ namespace Practychna1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(textBox1.Text) ||
+            string.IsNullOrWhiteSpace(textBox2.Text) ||
+            string.IsNullOrWhiteSpace(textBox3.Text) ||
+            string.IsNullOrWhiteSpace(textBox4.Text))
+            {
+                MessageBox.Show("Будь ласка, заповніть всі поля перед продовженням.");
+                return;
+            }
+        
             Tabul tabul = new Tabul();
 
             double xn, xk, h, a;
