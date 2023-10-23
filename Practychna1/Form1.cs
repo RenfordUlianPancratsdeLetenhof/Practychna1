@@ -32,7 +32,7 @@ namespace Practychna1
             xk = Convert.ToDouble(this.textBox2.Text);
             h = Convert.ToDouble(this.textBox3.Text);
             a = Convert.ToDouble(this.textBox4.Text);
-
+            
             dataGridView1.Rows.Clear();
 
             chart1.Series[0].Points.Clear();
