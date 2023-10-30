@@ -65,6 +65,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array2D.cs" />
+    <Compile Include="array_dvovimir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="array_dvovimir.Designer.cs">
+      <DependentUpon>array_dvovimir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="array_odno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="array_odno.Designer.cs">
+      <DependentUpon>array_odno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SurnameArray.cs" />
     <Compile Include="Tabul.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -74,6 +88,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="array_dvovimir.resx">
+      <DependentUpon>array_dvovimir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="array_odno.resx">
+      <DependentUpon>array_odno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

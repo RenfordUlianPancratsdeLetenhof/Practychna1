@@ -24,6 +24,15 @@ namespace Practychna1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(textBox1.Text) ||
+            string.IsNullOrWhiteSpace(textBox2.Text) ||
+            string.IsNullOrWhiteSpace(textBox3.Text) ||
+            string.IsNullOrWhiteSpace(textBox4.Text))
+            {
+                MessageBox.Show("Будь ласка, заповніть всі поля перед продовженням.");
+                return;
+            }
+
             Tabul tabul = new Tabul();
 
             double xn, xk, h, a;
@@ -49,6 +58,25 @@ namespace Practychna1
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        // масив одновимір перехід
+        private void одновимірніToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            array_odno form = new array_odno();
+            form.Show();
+            this.Hide();
+        }
+        // масив двовимір перехід
+        private void двовимірніToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            array_dvovimir form = new array_dvovimir();
+            form.Show();
+            this.Hide();
         }
     }
 }
