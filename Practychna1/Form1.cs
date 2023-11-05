@@ -78,5 +78,12 @@ namespace Practychna1
             form.Show();
             this.Hide();
         }
+
+        private void unitTestsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Unit_tests form = new Unit_tests();
+            form.Show(); 
+            this.Hide();   
+        }
     }
 }

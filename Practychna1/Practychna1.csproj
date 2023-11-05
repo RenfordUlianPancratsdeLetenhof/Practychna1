@@ -50,6 +50,9 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -78,6 +81,8 @@
     <Compile Include="array_odno.Designer.cs">
       <DependentUpon>array_odno.cs</DependentUpon>
     </Compile>
+    <Compile Include="pract_3\First_ex.cs" />
+    <Compile Include="pract_3\Second_ex.cs" />
     <Compile Include="SurnameArray.cs" />
     <Compile Include="Tabul.cs" />
     <Compile Include="Form1.cs">
@@ -88,6 +93,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unit_tests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unit_tests.Designer.cs">
+      <DependentUpon>Unit_tests.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="array_dvovimir.resx">
       <DependentUpon>array_dvovimir.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +118,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Unit_tests.resx">
+      <DependentUpon>Unit_tests.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
