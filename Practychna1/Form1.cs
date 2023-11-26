@@ -85,5 +85,19 @@ namespace Practychna1
             form.Show(); 
             this.Hide();   
         }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            File form = new File();
+            form.Show();
+            this.Hide();
+        }
+
+        private void інтерфейсиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Practychna5 form = new Practychna5();
+            form.Show();
+            this.Hide();
+        }
     }
 }

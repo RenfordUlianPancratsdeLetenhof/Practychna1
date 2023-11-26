@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="first_ex_test_abc.cs" />
+    <Compile Include="Pract4_test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="second_ex_test_ab.cs" />
   </ItemGroup>

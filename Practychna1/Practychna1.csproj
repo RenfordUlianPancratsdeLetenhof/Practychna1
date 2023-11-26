@@ -81,6 +81,27 @@
     <Compile Include="array_odno.Designer.cs">
       <DependentUpon>array_odno.cs</DependentUpon>
     </Compile>
+    <Compile Include="File.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File.Designer.cs">
+      <DependentUpon>File.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pract4\Array.cs" />
+    <Compile Include="pract4\FileRead.cs" />
+    <Compile Include="pract4\FileWrite.cs" />
+    <Compile Include="pract4\IRead.cs" />
+    <Compile Include="pract4\IWrite.cs" />
+    <Compile Include="pract4\ShowArray.cs" />
+    <Compile Include="Pract5\Product.cs" />
+    <Compile Include="Pract5\Products.cs" />
+    <Compile Include="Pract5\SortByCount.cs" />
+    <Compile Include="Practychna5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practychna5.Designer.cs">
+      <DependentUpon>Practychna5.cs</DependentUpon>
+    </Compile>
     <Compile Include="pract_3\First_ex.cs" />
     <Compile Include="pract_3\Second_ex.cs" />
     <Compile Include="SurnameArray.cs" />
@@ -105,8 +126,14 @@
     <EmbeddedResource Include="array_odno.resx">
       <DependentUpon>array_odno.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="File.resx">
+      <DependentUpon>File.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practychna5.resx">
+      <DependentUpon>Practychna5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
