@@ -81,6 +81,12 @@
     <Compile Include="array_odno.Designer.cs">
       <DependentUpon>array_odno.cs</DependentUpon>
     </Compile>
+    <Compile Include="Delegate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delegate.Designer.cs">
+      <DependentUpon>Delegate.cs</DependentUpon>
+    </Compile>
     <Compile Include="File.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,14 @@
     <Compile Include="Pract5\Product.cs" />
     <Compile Include="Pract5\Products.cs" />
     <Compile Include="Pract5\SortByCount.cs" />
+    <Compile Include="pract6\CreatingProcess.cs" />
+    <Compile Include="pract6\IAreTheDetails.cs" />
+    <Compile Include="pract6\IDone.cs" />
+    <Compile Include="pract6\INodeStart.cs" />
+    <Compile Include="pract6\IOnWork.cs" />
+    <Compile Include="pract6\IPut.cs" />
+    <Compile Include="pract6\Mehanizm.cs" />
+    <Compile Include="pract6\Worker.cs" />
     <Compile Include="Practychna5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="array_odno.resx">
       <DependentUpon>array_odno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delegate.resx">
+      <DependentUpon>Delegate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="File.resx">
       <DependentUpon>File.cs</DependentUpon>

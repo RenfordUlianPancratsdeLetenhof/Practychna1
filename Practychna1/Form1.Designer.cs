@@ -50,6 +50,7 @@
             this.unitTestsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.інтерфейсиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.делегатToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.menuStrip_unitTests.SuspendLayout();
@@ -183,7 +184,8 @@
             this.роботаЗМасивамиToolStripMenuItem,
             this.unitTestsToolStripMenuItem,
             this.fileToolStripMenuItem,
-            this.інтерфейсиToolStripMenuItem});
+            this.інтерфейсиToolStripMenuItem,
+            this.делегатToolStripMenuItem});
             this.menuStrip_unitTests.Location = new System.Drawing.Point(0, 0);
             this.menuStrip_unitTests.Name = "menuStrip_unitTests";
             this.menuStrip_unitTests.Size = new System.Drawing.Size(1069, 28);
@@ -233,6 +235,13 @@
             this.інтерфейсиToolStripMenuItem.Size = new System.Drawing.Size(106, 24);
             this.інтерфейсиToolStripMenuItem.Text = " Інтерфейси";
             this.інтерфейсиToolStripMenuItem.Click += new System.EventHandler(this.інтерфейсиToolStripMenuItem_Click);
+            // 
+            // делегатToolStripMenuItem
+            // 
+            this.делегатToolStripMenuItem.Name = "делегатToolStripMenuItem";
+            this.делегатToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
+            this.делегатToolStripMenuItem.Text = "Делегат";
+            this.делегатToolStripMenuItem.Click += new System.EventHandler(this.делегатToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -286,6 +295,7 @@
         private System.Windows.Forms.ToolStripMenuItem unitTestsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem інтерфейсиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem делегатToolStripMenuItem;
     }
 }
 

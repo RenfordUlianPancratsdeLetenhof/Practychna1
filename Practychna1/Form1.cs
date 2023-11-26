@@ -99,5 +99,12 @@ namespace Practychna1
             form.Show();
             this.Hide();
         }
+
+        private void делегатToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Delegate form = new Delegate();
+            form.Show();
+            this.Hide();
+        }
     }
 }
